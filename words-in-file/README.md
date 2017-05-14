@@ -14,7 +14,7 @@ WordsInFile.cpp - opens a file, counts the # of whitespace-separated words in th
 					read in from the file
 	- count - int - used to store the # of whitespace-separated words in the file
 
-TEST PLAN
+Test Plan
 - Normal Case 1:
 		Hard codes the file "13File.txt" to be opened/counted
 		Should open correctly and count 13 words
