@@ -18,7 +18,7 @@ Test Plan
 - Normal Case 1:
 		Hard codes the file "13File.txt" to be opened/counted
 		Should open correctly and count 13 words
-		> The total # of whitespace-separated words in the file is 13
+- 		> The total # of whitespace-separated words in the file is 13
 - Normal Case 2:
 		Hard codes the file "80File.txt" to be opened/counted
 		Should open correctly and count 80 words
