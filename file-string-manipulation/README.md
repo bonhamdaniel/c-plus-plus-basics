@@ -3,8 +3,8 @@ FileStringManipulation.cpp - introduces the C++ concepts of file and string mani
 - Program Purpose:
 		Introduces the C++ concepts of file and string manipulation, including
 		the use of getline().
-- Compile (assuming GNU C++ compiler): g++ TMA1Question5.cpp -o TMA1Question5
-- Execution: TMA1Question5.exe
+- Compile (assuming GNU C++ compiler): g++ FileStringManipulation.cpp -o FileStringManipulation
+- Execution: FileStringManipulation.exe
 - Notes: No user input is necessary, everything for this program is hardcoded
 - Classes: None
 - Variables:
