@@ -1,16 +1,11 @@
 /*
 Title: DisplayOnPrompt.cpp
-
 Description: Opens a (text) file, and displays the contents of that file one line at
 	a time. After a line has been displayed, the program waits for the user 
 	to press the <enter> key before displaying the next line in the file.
-
 Date: January 23rd, 2015
-
 Author: Dan Bonham
-
 Version: 1.0
-
 Copyright: 2015 Daniel R. Bonham
 */
 
