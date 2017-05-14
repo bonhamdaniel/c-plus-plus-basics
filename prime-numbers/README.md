@@ -43,6 +43,7 @@ Test Plan
 		- > 9949 is prime.
 		- > 9967 is prime.
 		- > 9973 is prime.
+
 **All output as expected
 ***As this program is completely hardcoded, there is no user input at all, there are no
 further cases to test.  The above demonstrates that the program works as required.
