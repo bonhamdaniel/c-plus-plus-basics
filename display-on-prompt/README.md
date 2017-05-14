@@ -74,4 +74,4 @@ Discussion:
 		to read in and display the contents line by line as prompted by the user
 		via a do-while loop.
 		If the file is not valid, the program simply displays an empty line followed
-		by a single propmt to illustrate the program is running/responsive.
+		by a single prompt to illustrate the program is running/responsive.
