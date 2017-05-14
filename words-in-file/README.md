@@ -1,4 +1,3 @@
-DOCUMENTATION
 WordsInFile.cpp - opens a file, counts the # of whitespace-separated words in that file, and displays the result.
 
 - Program Purpose:
