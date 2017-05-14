@@ -8,9 +8,9 @@ FileStringManipulation.cpp - introduces the C++ concepts of file and string mani
 - Notes: No user input is necessary, everything for this program is hardcoded
 - Classes: None
 - Variables:
-		- aString - string array sized for 100 lines - used to store 100 lines
+	- aString - string array sized for 100 lines - used to store 100 lines
 				  of file content
-		- inputFile - ifstream - used to store the file to be opened and whose contents
+	- inputFile - ifstream - used to store the file to be opened and whose contents
 					are read in and displayed
 
 Test Plan
