@@ -9,11 +9,11 @@ WordsInFile.cpp - opens a file, counts the # of whitespace-separated words in th
 - Notes: No user input required, everything necessary for this program is hardcoded
 - Classes: None
 - Variables:
-		inputFile - ifstream - used to store the file to be opened and whose words
+	- inputFile - ifstream - used to store the file to be opened and whose words
 					are counted
-		word - string - used to store each whitespace-separated word as they are 
+	- word - string - used to store each whitespace-separated word as they are 
 					read in from the file
-		count - int - used to store the # of whitespace-separated words in the file
+	- count - int - used to store the # of whitespace-separated words in the file
 
 TEST PLAN
 - Normal Case 1:
