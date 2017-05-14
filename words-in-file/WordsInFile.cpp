@@ -14,7 +14,7 @@ Copyright: 2015 Daniel R. Bonham
 using namespace std;
 
 int main() {
-	ifstream inputFile("Q5File.txt"); // Opens hard-coded file
+	ifstream inputFile("WCFile.txt"); // Opens hard-coded file
 	string word; // used to input words from the file
 	int count = 0; // used to count words in the file
 	while(inputFile >> word) // gets one word at a time from file
