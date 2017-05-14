@@ -43,14 +43,12 @@ Test Plan
 		- > 9949 is prime.
 		- > 9967 is prime.
 		- > 9973 is prime.
-		- **All output as expected
+**All output as expected
 ***As this program is completely hardcoded, there is no user input at all, there are no
-further cases to test.  The above demonstrates that the program works as required.  I
-saw a discussion in the course forums which stated for this type of programs simply
-running the normal case was adequate.
+further cases to test.  The above demonstrates that the program works as required.
 
 Discussion:
-		As this is an introductory assignment, much of the C++ functionality to 
+		As this is an introductory program, much of the C++ functionality to 
 		write an elegant program, with adequate error-handling, has not yet been
 		introduced.  As such, this program is completely hard-coded and does not
 		contain error-handling capabilities.
