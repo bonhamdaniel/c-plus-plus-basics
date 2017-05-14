@@ -20,21 +20,21 @@ Test Plan
 	- Should open correctly and count 13 words
 		- > The total # of whitespace-separated words in the file is 13
 - Normal Case 2:
-		Hard codes the file "80File.txt" to be opened/counted
-		Should open correctly and count 80 words
-		> The total # of whitespace-separated words in the file is 80
+	- Hard codes the file "80File.txt" to be opened/counted
+	- Should open correctly and count 80 words
+		- > The total # of whitespace-separated words in the file is 80
 - Normal Case 3:
-		Hard codes the file "WCFile.txt" to be opened/counted
-		Should open correctly and count 404 words
-		> The total # of whitespace-separated words in the file is 404
+	- Hard codes the file "WCFile.txt" to be opened/counted
+	- Should open correctly and count 404 words
+		- > The total # of whitespace-separated words in the file is 404
 - Limit Data Case (empty file):
-		Hard codes the file "Empty.txt" to be opened/counted
-		The file is empty, contains zero words, but should be handled correctly
-		> The total # of whitespace-separated words in the file is 0
+	- Hard codes the file "Empty.txt" to be opened/counted
+	- The file is empty, contains zero words, but should be handled correctly
+		- > The total # of whitespace-separated words in the file is 0
 - Abnormal Data Case (non-existant file):
-		Hard codes the file "Phantom.txt" to be opened/counted
-		The file doesn't exist, program should display that there are 0 words
-		> The total # of whitespace-separated words in the file is 0
+	- Hard codes the file "Phantom.txt" to be opened/counted
+	- The file doesn't exist, program should display that there are 0 words
+		- > The total # of whitespace-separated words in the file is 0
 
 Discussion:
 		As this is meant to introduce a few basics, much of the C++ functionality to 
