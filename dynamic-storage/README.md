@@ -8,11 +8,11 @@ DynamicStorage.cpp - introduces the C++ concepts of dynamic creation of storage,
 - Notes: No user input is necessary, everything for this program is hardcoded
 - Classes: None
 - Variables:
-		- size - int - used to store a single int value that is the size for the arrays
-		- ip - int* - used to store a pointer to a single int value
-		- lp - long* - used to store a pointer to a single long value
-		- ca - char* - used to store a pointer to a char array with 100 elements
-		- fa - float* - used to store a pointer to a float array with 100 elements
+	- size - int - used to store a single int value that is the size for the arrays
+	- ip - int* - used to store a pointer to a single int value
+	- lp - long* - used to store a pointer to a single long value
+	- ca - char* - used to store a pointer to a char array with 100 elements
+	- fa - float* - used to store a pointer to a float array with 100 elements
 
 Test Plan
 - Normal Case 1:
