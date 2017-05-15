@@ -22,7 +22,7 @@ Test Plan
 		- > int @ <5772088> = <59>
 		- > long @ <5772136> = <123456>
 		- > charArray[0] @ <5770984> = <a>
-		- > charArray[1] @ <5770985> = <b>
+		- > charArray[1] @ <5770985> = \<b\>
 		- > charArray[2] @ <5770986> = <c>
 		- > charArray[3] @ <5770987> = <d>
 		- > charArray[4] @ <5770988> = <e>
