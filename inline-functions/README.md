@@ -19,46 +19,47 @@ InlineFunctions.cpp - creates a const whose value is determined at runtime by re
 
 Test Plan
 - Normal Case 1:
-		Runs program as constituted, without any alterations
-		Should display output as required in program specification
-		> result[0]: 1.0099e+006
-		> result[1]: 1.0199e+006
-		> result[2]: 1.02989e+006
-		.
-		.
-		.
-		> result[9978]: 1.21944e+006
-		> result[9979]: 1.20948e+006
-		> result[9980]: 1.19952e+006
-		> result[9981]: 1.18956e+006
-		> result[9982]: 1.17959e+006
-		> result[9983]: 1.16963e+006
-		> result[9984]: 1.15966e+006
-		> result[9985]: 1.14969e+006
-		> result[9986]: 1.13972e+006
-		> result[9987]: 1.12974e+006
-		> result[9988]: 1.11977e+006
-		> result[9989]: 1.10979e+006
-		> result[9990]: 1.09981e+006
-		> result[9991]: 1.08983e+006
-		> result[9992]: 1.07984e+006
-		> result[9993]: 1.06986e+006
-		> result[9994]: 1.05987e+006
-		> result[9995]: 1.04988e+006
-		> result[9996]: 1.03989e+006
-		> result[9997]: 1.02989e+006
-		> result[9998]: 1.0199e+006
-		> result[9999]: 1.0099e+006
-		> Elapsed time = 4 seconds.
-		**All output as expected, however, there as no difference in terms of execution
-		between this program using inline functions, and the program from question 1 which
+	- Runs program as constituted, without any alterations
+	- Should display output as required in program specification
+		- > result[0]: 1.0099e+006
+		- > result[1]: 1.0199e+006
+		- > result[2]: 1.02989e+006
+		- .
+		- .
+		- .
+		- > result[9978]: 1.21944e+006
+		- > result[9979]: 1.20948e+006
+		- > result[9980]: 1.19952e+006
+		- > result[9981]: 1.18956e+006
+		- > result[9982]: 1.17959e+006
+		- > result[9983]: 1.16963e+006
+		- > result[9984]: 1.15966e+006
+		- > result[9985]: 1.14969e+006
+		- > result[9986]: 1.13972e+006
+		- > result[9987]: 1.12974e+006
+		- > result[9988]: 1.11977e+006
+		- > result[9989]: 1.10979e+006
+		- > result[9990]: 1.09981e+006
+		- > result[9991]: 1.08983e+006
+		- > result[9992]: 1.07984e+006
+		- > result[9993]: 1.06986e+006
+		- > result[9994]: 1.05987e+006
+		- > result[9995]: 1.04988e+006
+		- > result[9996]: 1.03989e+006
+		- > result[9997]: 1.02989e+006
+		- > result[9998]: 1.0199e+006
+		- > result[9999]: 1.0099e+006
+		- > Elapsed time = 4 seconds.
+
+**All output as expected, however, there as no difference in terms of execution
+		between this program using inline functions, and the program which
 		did not use inline functions.  This was not as I expected at all.
+
 ***As this program is completely hardcoded, there is no user input at all, there are no
-further cases to test.  The above demonstrates that the program works as required.  I
-saw a discussion in the course forums which stated for this type of programs simply
-running the normal case was adequate.
+further cases to test.  The above demonstrates that the program works as required.
+
 Discussion:
-		As this is an introductory assignment, much of the C++ functionality to 
+		As this is an introductory program, much of the C++ functionality to 
 		write an elegant program, with adequate error-handling, has not yet been
 		introduced.  As such, this program is completely hard-coded and does not
 		contain error-handling capabilities.
