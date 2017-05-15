@@ -40,7 +40,7 @@ Test Plan
 		- > charArray[93] @ <5771077> = <P>
 		- > charArray[94] @ <5771078> = <Q>
 		- > charArray[95] @ <5771079> = <R>
-		- > charArray[96] @ <5771080> = <S>
+		- > charArray[96] @ <5771080> = \<S\>
 		- > charArray[97] @ <5771081> = <T>
 		- > charArray[98] @ <5771082> = <U>
 		- > charArray[99] @ <5771083> = <V>
