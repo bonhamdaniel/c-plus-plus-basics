@@ -7,15 +7,17 @@ ClassBasics.cpp - creates a Text class that contains a string object to hold the
 - Execution: ClassBasics.exe
 - Notes: No user input is necessary, everything for this program is hardcoded
 - Classes: 
-    - Text - contains a string variable - fileInput - which stores the file that the class
+	- Text - contains a string variable - fileInput - which stores the file that the class
 			   will manipulate.  Also contains a contents() member function, a default constructor, 
 			   and a constructor that accepts a string argument (name of file to be manipulated).
-Variables:
-		fileInput - string - member data from Text class, used to store name of file the 
+- Variables:
+	- fileInput - string - member data from Text class, used to store name of file the 
 				class will manipulate
-		inFile - ifstream  - in Text constructor, used to open/manipulate specified file
-		line - string - in Text constructor, used to read contents of the file and store it in
+	- inFile - ifstream  - in Text constructor, used to open/manipulate specified file
+	- line - string - in Text constructor, used to read contents of the file and store it in
 			   the Text member data fileInput
-		text - instance of Text class - used to store an instance of the Text class
-		contents - string - in main, holds the contents returned by the contents() member
+	- text - instance of Text class - used to store an instance of the Text class
+	- contents - string - in main, holds the contents returned by the contents() member
 			   function of the Text class
+
+Test Plan
