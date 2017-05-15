@@ -12,35 +12,35 @@ OperatorOverloading.cpp - creates a simple class (DoStuff) containing an int, an
 
 Test Plan
 - Normal Case 1:
-		Runs program as constituted, without any alterations.
-		Should display output as required in program specification.
-		All testing built into program execution - all overloaded operators
-		inherently tested and correct execution confirmed in output.
-		Output in file "Q3.txt" also confirms print() method working.
-		Console:
-		> Initial value of ds: [i] = 0
-		> In unary operator+
-		> After unary operator+ (has no effect): [i] = 0
-		> After binary operator+ 5 (ds = ds + 5): [i] = 5
-		> After binary operator- 2 (ds = ds - 2): [i] = 3
-		> After testing complex expression (ds = ds[3] + ds2[2] - ds3[4]: [i] = 1
-		> Calling ++ds (prefix): [i] = 2
-		> Value after call: [i] = 2
-		> Calling ds++ (postfix): [i] = 2
-		> Value after call: [i] = 3
-		> Calling --ds (prefix): [i] = 2
-		> Value after call: [i] = 2
-		> Calling ds-- (postfix): [i] = 2
-		> Value after call: [i] = 1
-		**All output as expected
-		"Q3.txt":
-		> i = 0
+	- Runs program as constituted, without any alterations.
+	- Should display output as required in program specification.
+	- All testing built into program execution - all overloaded operators inherently tested and correct execution confirmed in output.
+	- Output in file "OpOv.txt" also confirms print() method working.
+	-Console:
+		- > Initial value of ds: [i] = 0
+		- > In unary operator+
+		- > After unary operator+ (has no effect): [i] = 0
+		- > After binary operator+ 5 (ds = ds + 5): [i] = 5
+		- > After binary operator- 2 (ds = ds - 2): [i] = 3
+		- > After testing complex expression (ds = ds[3] + ds2[2] - ds3[4]: [i] = 1
+		- > Calling ++ds (prefix): [i] = 2
+		- > Value after call: [i] = 2
+		- > Calling ds++ (postfix): [i] = 2
+		- > Value after call: [i] = 3
+		- > Calling --ds (prefix): [i] = 2
+		- > Value after call: [i] = 2
+		- > Calling ds-- (postfix): [i] = 2
+		- > Value after call: [i] = 1
+
+**All output as expected
+		- "OpOv.txt":
+		- > i = 0
+
 ***As this program is completely hardcoded, there is no user input at all, there are no
-further cases to test.  The above demonstrates that the program works as required.  I
-saw a discussion in the course forums which stated for this type of programs simply
-running the normal case was adequate.
+further cases to test.  The above demonstrates that the program works as required.
+
 Discussion:
-		As this is an introductory assignment, much of the C++ functionality to 
+		As this is an introductory program, much of the C++ functionality to 
 		write an elegant program, with adequate error-handling, has not yet been
 		introduced.  As such, this program is completely hard-coded and does not
 		contain error-handling capabilities.
