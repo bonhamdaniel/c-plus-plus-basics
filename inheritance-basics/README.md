@@ -57,39 +57,40 @@ InheritanceBasics.cpp - creates a class hierarchy for simple geometry. Starts wi
 
 Test Plan
 - Normal Case 1:
-		Runs program as constituted, without any alterations.
-		Should display output as required in program specification.
-		All testing built into program execution.
-		> This is a 6Circle
-		> It's area is: 1661.9
-		> It's circumference is: 144.513
-		> It's bounding box is: Point = (33, 18), Point = (33, -28), Point = (-13, -28), P
-		> oint = (-13, 18)
+	- Runs program as constituted, without any alterations.
+	- Should display output as required in program specification.
+	- All testing built into program execution.
+		- > This is a 6Circle
+		- > It's area is: 1661.9
+		- > It's circumference is: 144.513
+		- > It's bounding box is: Point = (33, 18), Point = (33, -28), Point = (-13, -28), P
+		- > oint = (-13, 18)
+		- 
+		- > This is a 6Square
+		- > It's area is: 207
+		- > It's circumference is: 68.4964
+		- > It's bounding box is: Point = (5, 23), Point = (5, -5), Point = (-10, -5), Point
+		- >  = (-10, 23)
+		- 
+		- > This is a 6Square
+		- > It's area is: 2
+		- > It's circumference is: 5.65685
+		- > It's bounding box is: Point = (1, 1), Point = (1, -1), Point = (-1, -1), Point =
+		- >  (-1, 1)
+		- 
+		- > This is a 8Triangle
+		- > It's area is: 150
+		- > It's circumference is: 60.8504
+		- > It's bounding box is: Point = (10, 15), Point = (10, 0), Point = (-15, 0), Point
+		- >  = (-15, 15)
 
-		> This is a 6Square
-		> It's area is: 207
-		> It's circumference is: 68.4964
-		> It's bounding box is: Point = (5, 23), Point = (5, -5), Point = (-10, -5), Point
-		>  = (-10, 23)
+**All output as expected
 
-		> This is a 6Square
-		> It's area is: 2
-		> It's circumference is: 5.65685
-		> It's bounding box is: Point = (1, 1), Point = (1, -1), Point = (-1, -1), Point =
-		>  (-1, 1)
-
-		> This is a 8Triangle
-		> It's area is: 150
-		> It's circumference is: 60.8504
-		> It's bounding box is: Point = (10, 15), Point = (10, 0), Point = (-15, 0), Point
-		>  = (-15, 15)
-		**All output as expected
 ***As this program is completely hardcoded, there is no user input at all, there are no
-further cases to test.  The above demonstrates that the program works as required.  I
-saw a discussion in the course forums which stated for this type of programs simply
-running the normal case was adequate.
+further cases to test.  The above demonstrates that the program works as required.
+
 Discussion:
-		As this is an introductory assignment, much of the C++ functionality to 
+		As this is an introductory program, much of the C++ functionality to 
 		write an elegant program, with adequate error-handling, has not yet been
 		introduced.  As such, this program is completely hard-coded and does not
 		contain error-handling capabilities.
@@ -97,8 +98,8 @@ Discussion:
 		specified in the program description.  All calculations are correct as when
 		compared to manual calculations performed independent of the program.
 		A second shape object is present, as the coordinates specified for the square
-		in the program specifications does not acrtually form a square, to demonstrate
-		that the requirted calculations do indeed work on an actual square.
+		in the program specifications does not actually form a square, to demonstrate
+		that the required calculations do indeed work on an actual square.
 		**In order for the area and circumference of a square to be calculated correctly,
 		the coordinates of the shape must be entered in an order that forms a polygon
 		without any crossing adges.
