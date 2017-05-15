@@ -21,29 +21,29 @@ Test Plan
 	- Dynamically creates pieces of storage of the following types using new: int, long, an array of 100 chars, and an array of 100 floats. Prints the addresses and values of these using the format: “type @ <address>= <value>”. After printing all the addresses and values, frees the storage using delete. Fills the char array using copies of the lowercase and uppercase alphabet (a-z, A-Z), and fills the float array using sequential numbers starting with 101.
 		- > int @ <5772088> = <59>
 		- > long @ <5772136> = <123456>
-		- > charArray[0] @ <5770984> = <a>
+		- > charArray[0] @ <5770984> = \<a\>
 		- > charArray[1] @ <5770985> = \<b\>
-		- > charArray[2] @ <5770986> = <c>
-		- > charArray[3] @ <5770987> = <d>
-		- > charArray[4] @ <5770988> = <e>
-		- > charArray[5] @ <5770989> = <f>
-		- > charArray[6] @ <5770990> = <g>
-		- > charArray[7] @ <5770991> = <h>
-		- > charArray[8] @ <5770992> = <i>
-		- > charArray[9] @ <5770993> = <j>
+		- > charArray[2] @ <5770986> = \<c\>
+		- > charArray[3] @ <5770987> = \<d\>
+		- > charArray[4] @ <5770988> = \<e\>
+		- > charArray[5] @ <5770989> = \<f\>
+		- > charArray[6] @ <5770990> = \<g\>
+		- > charArray[7] @ <5770991> = \<h\>
+		- > charArray[8] @ <5770992> = \<i\>
+		- > charArray[9] @ <5770993> = \<j\>
 		- > .
 		- > .
 		- > .
-		- > charArray[90] @ <5771074> = <M>
-		- > charArray[91] @ <5771075> = <N>
-		- > charArray[92] @ <5771076> = <O>
-		- > charArray[93] @ <5771077> = <P>
-		- > charArray[94] @ <5771078> = <Q>
-		- > charArray[95] @ <5771079> = <R>
+		- > charArray[90] @ <5771074> = \<M\>
+		- > charArray[91] @ <5771075> = \<N\>
+		- > charArray[92] @ <5771076> = \<O\>
+		- > charArray[93] @ <5771077> = \<P\>
+		- > charArray[94] @ <5771078> = \<Q\>
+		- > charArray[95] @ <5771079> = \<R\>
 		- > charArray[96] @ <5771080> = \<S\>
-		- > charArray[97] @ <5771081> = <T>
-		- > charArray[98] @ <5771082> = <U>
-		- > charArray[99] @ <5771083> = <V>
+		- > charArray[97] @ <5771081> = \<T\>
+		- > charArray[98] @ <5771082> = \<U\>
+		- > charArray[99] @ <5771083> = \<V\>
 		- > floatArray[0]  @ <5771096> = <101>
 		- > floatArray[1]  @ <5771100> = <102>
 		- > floatArray[2]  @ <5771104> = <103>
