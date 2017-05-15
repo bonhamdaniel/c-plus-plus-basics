@@ -7,36 +7,35 @@ NestedClasses.cpp - Creates a Hen class. Inside this class, it nests a Nest clas
 - Execution: NestedClasses.exe
 - Notes: No user input is necessary, everything for this program is hardcoded
 - Classes: 
-  - Hen - contains a display() function, a constructor, and a destructor.  Also
-			  contains a nested class called Nest
-	- Nest - contains a display() function, a constructor, and a destructor.  Also
-			  	contains a nested class called Egg
+	- Hen - contains a display() function, a constructor, and a destructor.  Also contains a nested class called Nest
+	- Nest - contains a display() function, a constructor, and a destructor.  Also contains a nested class called Egg
 	- Egg - contains a display() function, a constructor, and a destructor.
 - Variables:
-  - hen - Hen* - used to store a pointer to a dynamically created Hen object
+	- hen - Hen* - used to store a pointer to a dynamically created Hen object
 	- nest - Hen::Nest* - used to store a pointer to a dynamically created Nest object
 	- egg - Hen::Nest::Egg* - used to store a pointer to a dynamically created Egg object
   
-  Test Plan
-  - Normal Case 1:
-    Runs program as constituted, without any alterations
-		Should display output as required in program specification
-		> Inside Hen constructor.
-		> Inside Nest constructor.
-		> Inside Egg constructor.
-		> Displaying instance of Hen class.
-		> Displaying instance of Nest class.
-		> Displaying instance of Egg class.
-		> Inside Hen deconstructor.
-		> Inside Nest deconstructor.
-		> Inside Egg deconstructor.
-		**All output as expected
+Test Plan
+- Normal Case 1:
+	- Runs program as constituted, without any alterations
+	- Should display output as required in program specification
+		- > Inside Hen constructor.
+		- > Inside Nest constructor.
+		- > Inside Egg constructor.
+		- > Displaying instance of Hen class.
+		- > Displaying instance of Nest class.
+		- > Displaying instance of Egg class.
+		- > Inside Hen deconstructor.
+		- > Inside Nest deconstructor.
+		- > Inside Egg deconstructor.
+
+**All output as expected
+
 ***As this program is completely hardcoded, there is no user input at all, there are no
-further cases to test.  The above demonstrates that the program works as required.  I
-saw a discussion in the course forums which stated for this type of programs simply
-running the normal case was adequate.
+further cases to test.  The above demonstrates that the program works as required.
+
 Discussion:
-		As this is an introductory assignment, much of the C++ functionality to 
+		As this is an introductory program, much of the C++ functionality to 
 		write an elegant program, with adequate error-handling, has not yet been
 		introduced.  As such, this program is completely hard-coded and does not
 		contain error-handling capabilities.
