@@ -21,75 +21,76 @@ PolymorphismBasics.cpp - creates an inheritance hierarchy of Rodent: Mouse, Gerb
 
 Test Plan
 - Normal Case 1:
-		Runs program as constituted, without any alterations.
-		Should display output as required in program specification.
-		All testing built into program execution.
-		> I am a Mouse
-		> I eat cheese
-		> I am smelly
-		> I am social
-		> I am smart
-		> 
-		> I am a Gerbil
-		> I eat almonds
-		> I am fairly clean
-		> I am skittish
-		> I am hyperactive
+	- Runs program as constituted, without any alterations.
+	- Should display output as required in program specification.
+	- All testing built into program execution.
+		- > I am a Mouse
+		- > I eat cheese
+		- > I am smelly
+		- > I am social
+		- > I am smart
+		- > 
+		- > I am a Gerbil
+		- > I eat almonds
+		- > I am fairly clean
+		- > I am skittish
+		- > I am hyperactive
+		- 
+		- > I am a Hamster
+		- > I eat seeds
+		- > I am dirty
+		- > I am tempermental
+		- > I am docile
+		- > 
+		- > I am a Mouse
+		- > I eat cheese
+		- > I am smelly
+		- > I am social
+		- > I am smart
+		- > 
+		- > I am a Gerbil
+		- > I eat almonds
+		- > I am fairly clean
+		- > I am skittish
+		- > I am hyperactive
+		- > 
+		- > I am a Hamster
+		- > I eat seeds
+		- > I am dirty
+		- > I am tempermental
+		- > I am docile
+		- > 
+		- > I am a Mouse
+		- > I eat cheese
+		- > I am smelly
+		- > I am social
+		- > I am smart
+		- > 
+		- > I am a Gerbil
+		- > I eat almonds
+		- > I am fairly clean
+		- > I am skittish
+		- > I am hyperactive
+		- > 
+		- > I am a Hamster
+		- > I eat seeds
+		- > I am dirty
+		- > I am tempermental
+		- > I am docile
+		- > 
+		- > I am a Mouse
+		- > I eat cheese
+		- > I am smelly
+		- > I am social
+		- > I am smart
+		
+**All output as expected
 
-		> I am a Hamster
-		> I eat seeds
-		> I am dirty
-		> I am tempermental
-		> I am docile
-		> 
-		> I am a Mouse
-		> I eat cheese
-		> I am smelly
-		> I am social
-		> I am smart
-		> 
-		> I am a Gerbil
-		> I eat almonds
-		> I am fairly clean
-		> I am skittish
-		> I am hyperactive
-		> 
-		> I am a Hamster
-		> I eat seeds
-		> I am dirty
-		> I am tempermental
-		> I am docile
-		> 
-		> I am a Mouse
-		> I eat cheese
-		> I am smelly
-		> I am social
-		> I am smart
-		> 
-		> I am a Gerbil
-		> I eat almonds
-		> I am fairly clean
-		> I am skittish
-		> I am hyperactive
-		> 
-		> I am a Hamster
-		> I eat seeds
-		> I am dirty
-		> I am tempermental
-		> I am docile
-		> 
-		> I am a Mouse
-		> I eat cheese
-		> I am smelly
-		> I am social
-		> I am smart
-		**All output as expected
 ***As this program is completely hardcoded, there is no user input at all, there are no
-further cases to test.  The above demonstrates that the program works as required.  I
-saw a discussion in the course forums which stated for this type of programs simply
-running the normal case was adequate.
+further cases to test.  The above demonstrates that the program works as required.
+
 Discussion:
-		As this is an introductory assignment, much of the C++ functionality to 
+		As this is an introductory program, much of the C++ functionality to 
 		write an elegant program, with adequate error-handling, has not yet been
 		introduced.  As such, this program is completely hard-coded and does not
 		contain error-handling capabilities.
